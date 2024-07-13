@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: linear-gradient(to top, #2e1753, #1f1746, #131537, #0d1028, #050819);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    max-width: 50em;
+    margin: 0 auto;
+}
+
+.error {
+    text-align: center;
+}
+
+.error_tittle {
+    background: linear-gradient(#00bcd4, #9575cd);
+    -webkit-background-clip: text;
+            background-clip: text;
+    font-family: "Montserrat";
+    font-size: 18rem;
+    font-weight: 200;
+    margin: 0;
+    -webkit-text-fill-color: transparent;
+}
+
+.error_type {
+    color: #fff;
+    font-weight: 600;
+    font-size: 2.75rem;
+    letter-spacing: 0.125em;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.error_cta {
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 3;
+}
+
+.error_link {
+    color: #fff;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.error_link--purple {
+    background: #9575cd;
+}
+
+.error_link--blue {
+    background: #00bcd4;
+}
+
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: #fff;
+    right: 0;
+    animation:starTwinkle 3s infinite linear;
+}
+	</style>
+
+</head>
+<body>
+	<div class="center">
+		<section class="error">
+			<h1 class="error_tittle">404</h1>
+			<h2 class="error_type">page not found</h2>
+			<p class="error_cta">Kami minta maaf, Halaman yang kamu muat sepertinya tidak ada dalam database kami,Pilih opsi
+			<a class="error_link error_link--purple" href="#" target="_blank">Beranda</a> 
+			atau<a class="error_link error_link--blue" href="#" target="_blank">Kembali</a></p>
+		</section>
+	</div>
+</body>
+</html>
